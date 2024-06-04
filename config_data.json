@@ -1,0 +1,360 @@
+{
+  "info": {
+    "salon": {
+      "store"     : "New Hollywood Nails & Spa",
+      "slug"      : "New-hollywood-nails-spa",
+      "phone"     : "(248) 791-7489",
+      "email"     : "huynhminhkhuong1985@gmail.com",
+      "address"   : "2813 Orchard Lake Rd, Keego Harbor, Michigan 48320",
+      "district"  : "Keego Harbor",
+      "state"     : "Michigan 48320",
+      "time_1"    : "[Mon-Sat] 09:30 AM - 07:30 PM",
+      "time_2"    : "[Sunday] 11:00 AM - 05:00 PM"
+     
+    },
+    "social": {
+      "facebook"  : "https://www.facebook.com/newhollywoodnailsandspa",
+      "instagram" : "https://www.instagram.com/newhollywoodnailsandspa.mi",
+      "google"    : "https://goo.gl/maps/XtBebJExTzCAwdjn6",
+      "booking"   : "https://www.lldtek.com/salon/appt/NDk3OTR8bmV3aG9sbHl3aHB8TUlfMDgxNDl8NDU3MDdlZjMyOWQxMTMxYzAxNmYyMDA0Y2M3NzI0ZTk=",
+      "maps"      : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2936.573846769978!2d-83.34237538430158!3d42.60678432747667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824bdf8e7518621%3A0x720d3abfd84783fd!2sNew%20Hollywood%20Nails%20and%20Spa!5e0!3m2!1sen!2s!4v1679040259980!5m2!1sen!2s"
+    },
+    "color": {
+      "primary"               : "#1A1A1A",
+      "primary_light"         : "#727272",
+      "primary_hover"         : "#87DD2C",
+      "secondary"             : "#90C73E",
+      "secondary_hover"       : "#88BC3A",
+      "text_primary"          : "#FFFFFF",
+      "text_primary_hover"    : "#FFFFFF",
+      "text_secondary"        : "#FFFFFF",
+      "text_secondary_hover"  : "#FFFFFF",
+      "text_title"            : "#429D64",
+      "text_title_hover"      : "#90C73E"
+    },
+    "debug": "on",
+    "path_image": "images",
+    "domain": "https://newhollywoodnailsnspa.com/"
+  },
+  
+  "gallery": [
+    {
+      "name": "gallery-01",
+      "url": "New-hollywood-nails-spa-gallery-01.jpg",
+      "home": true
+    },
+    {
+      "name": "gallery-02",
+      "url": "New-hollywood-nails-spa-gallery-02.jpg",
+      "home": false
+    },
+    {
+      "name": "gallery-03",
+      "url": "New-hollywood-nails-spa-gallery-03.jpg",
+      "home": false
+    },
+    {
+      "name": "gallery-04",
+      "url": "New-hollywood-nails-spa-gallery-04.jpg",
+      "home": false
+    },
+    {
+      "name": "gallery-05",
+      "url": "New-hollywood-nails-spa-gallery-05.jpg",
+      "home": true
+    },
+    {
+      "name": "gallery-06",
+      "url": "New-hollywood-nails-spa-gallery-06.jpg",
+      "home": false
+    },
+    {
+      "name": "gallery-07",
+      "url": "New-hollywood-nails-spa-gallery-07.jpg",
+      "home": true
+    },
+    {
+      "name": "gallery-08",
+      "url": "New-hollywood-nails-spa-gallery-08.jpg",
+      "home": true
+    },
+    {
+      "name": "gallery-09",
+      "url": "New-hollywood-nails-spa-gallery-09.jpg",
+      "home": false
+    },
+    {
+      "name": "gallery-10",
+      "url": "New-hollywood-nails-spa-gallery-10.jpg",
+      "home": false
+    },
+    {
+      "name": "gallery-11",
+      "url": "New-hollywood-nails-spa-gallery-11.jpg",
+      "home": false
+    },
+    {
+      "name": "gallery-12",
+      "url": "New-hollywood-nails-spa-gallery-12.jpg",
+      "home": false
+    },
+    {
+      "name": "gallery-13",
+      "url": "New-hollywood-nails-spa-gallery-13.jpg",
+      "home": false
+    },
+    {
+      "name": "gallery-14",
+      "url": "New-hollywood-nails-spa-gallery-14.jpg",
+      "home": false
+    },
+    {
+      "name": "gallery-15",
+      "url": "New-hollywood-nails-spa-gallery-15.jpg",
+      "home": false
+    }  
+
+  ],
+  "specialties": [
+    {
+      "name": "specialties-02",
+      "url": "New-hollywood-nails-spa-gallery-08.jpg"
+    },
+    {
+      "name": "specialties-03",
+      "url": "New-hollywood-nails-spa-gallery-07.jpg"
+    },
+    {
+      "name": "specialties-04",
+      "url": "New-hollywood-nails-spa-gallery-06.jpg"
+    },
+    {
+      "name": "specialties-05",
+      "url": "New-hollywood-nails-spa-gallery-05.jpg"
+    },
+    {
+      "name": "specialties-06",
+      "url": "New-hollywood-nails-spa-gallery-04.jpg"
+    },
+    {
+      "name": "specialties-07",
+      "url": "New-hollywood-nails-spa-gallery-03.jpg"
+    },
+    {
+      "name": "specialties-08",
+      "url": "New-hollywood-nails-spa-gallery-02.jpg"
+    },
+    {
+      "name": "specialties-09",
+      "url": "New-hollywood-nails-spa-gallery-01.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "name": "All Services",
+      "src": "New-hollywood-nails-spa-service-01.jpg",
+      "home": true
+    },
+    {
+      "name": "Nail Enhancement",
+      "src": "New-hollywood-nails-spa-service-02.jpg",
+      "home": true
+    }
+
+
+  ],
+  "services": [
+    {
+      "category": "All Services",
+      "name": "Acrylics Refill",
+      "url": "",
+      "price": 25,
+      "plus": false
+    },
+    {
+      "category": "All Services",
+      "name": "Shellac +",
+      "url": "",
+      "price": 15,
+      "plus": false
+    },
+    {
+      "category": "All Services",
+      "name": "Full Set Pink & White",
+      "url": "",
+      "price": 60,
+      "plus": false
+    },
+    {
+      "category": "All Services",
+      "name": "Pink & White Refill",
+      "url": "",
+      "price": 40,
+      "plus": false
+    },
+    {
+      "category": "All Services",
+      "name": "Full Set Ombre + Up",
+      "url": "",
+      "price": 60,
+      "plus": false
+    },
+    {
+      "category": "All Services",
+      "name": "Ombre Refill",
+      "url": "",
+      "price": 40,
+      "plus": false
+    },
+    {
+      "category": "All Services",
+      "name": "Dip Powder",
+      "url": "",
+      "price": 45,
+      "plus": false
+    },
+    {
+      "category": "All Services",
+      "name": "Add Manicure",
+      "url": "",
+      "price": 8,
+      "plus": false
+    },
+    {
+      "category": "All Services",
+      "name": "Mani & Pedi Combo Men",
+      "url": "",
+      "price": 50,
+      "plus": false
+    },
+    {
+      "category": "All Services",
+      "name": "Regular Manicure",
+      "url": "",
+      "price": 20,
+      "plus": false
+    },
+    {
+      "category": "All Services",
+      "name": "Regular Pedicure",
+      "url": "",
+      "price": 35,
+      "plus": false
+    },
+    {
+      "category": "All Services",
+      "name": "Men Pedicure",
+      "url": "",
+      "price": 35,
+      "plus": false
+    },
+    {
+      "category": "All Services",
+      "name": "Pedicure Shellac",
+      "url": "",
+      "price": 50,
+      "plus": false
+    },
+    {
+      "category": "All Services",
+      "name": "Color Change",
+      "url": "",
+      "price": 30,
+      "plus": false
+    },
+    {
+      "category": "All Services",
+      "name": "Manicure Shellac",
+      "url": "",
+      "price": 38,
+      "plus": false
+    },
+    {
+      "category": "All Services",
+      "name": "Color Change + Up",
+      "url": "",
+      "price": 30,
+      "plus": false
+    },
+    {
+      "category": "All Services",
+      "name": "Mani & Pedi Combo (Kids - Under 12)",
+      "url": "",
+      "price": 36,
+      "plus": false
+    },
+    {
+      "category": "All Services",
+      "name": "Manicure (Kids - Under 12)",
+      "url": "",
+      "price": 15,
+      "plus": false
+    },
+    {
+      "category": "All Services",
+      "name": "Pedicure (Kids - Under 12)",
+      "url": "",
+      "price": 26,
+      "plus": false
+    },
+    {
+      "category": "All Services",
+      "name": "Refill Gel",
+      "url": "",
+      "price": 38,
+      "plus": false
+    },
+    {
+      "category": "All Services",
+      "name": "Deluxe Pedicure",
+      "url": "",
+      "price": 70,
+      "plus": false
+    },
+
+
+
+    {
+      "category": "Nail Enhancement",
+      "name": "Take Off",
+      "url": "",
+      "price": 10,
+      "plus": false
+    },
+    {
+      "category": "Nail Enhancement",
+      "name": "Nail Repair + Up",
+      "url": "",
+      "price": 3,
+      "plus": false
+    },
+    {
+      "category": "Nail Enhancement",
+      "name": "Nail ART + Up",
+      "url": "",
+      "price": 5,
+      "plus": false
+    },
+    {
+      "category": "Nail Enhancement",
+      "name": "Toes Color Change",
+      "url": "",
+      "price": 15,
+      "plus": false
+    },
+    {
+      "category": "Nail Enhancement",
+      "name": "Nails Color Change",
+      "url": "",
+      "price": 12,
+      "plus": false
+    },
+    {
+      "category": "Nail Enhancement",
+      "name": "Acrylic Full Set",
+      "url": "",
+      "price": 40,
+      "plus": true
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Services | New Hollywood Nails & Spa</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- Favicon -->
+    <link href="img/New-hollywood-nails-spa-favicon.svg" rel="icon">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div><!-- Top Bar Start -->
+        <div class="top-bar d-md-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-10 mt-2 mt-md-0 pl-lg-3">
+                        <div class="top-bar-left">
+                            <div class="text">
+                                <i class="far fa-envelope text-white"></i>
+                                <a href="mailto:huynhminhkhuong1985@gmail.com" data-email="" class="text-white" name="storeEmail">huynhminhkhuong1985@gmail.com</a>
+                            </div>
+                            <div class="text ">
+                                <i class="fa fa-phone-alt text-white"></i>
+                                <a href="tel:+1(248) 791-7489" class="text-white" name="storePhone" data-phone="">(248) 791-7489</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 justify-content-md-end">
+                        <div class="top-bar-right justify-content-center justify-content-md-end">
+                            <div class="social">
+                                <a href="https://www.facebook.com/newhollywoodnailsandspa" target="_blank" class="no-border-left text-white" data-facebook=""><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/newhollywoodnailsandspa.mi" target="_blank" class="text-white" data-instagram=""><i class="fab fa-instagram"></i></a>
+                                <a href="https://goo.gl/maps/XtBebJExTzCAwdjn6" target="_blank" class="no-border text-white" data-google=""><i class="fab fa-google"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top Bar End -->
+        
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand logo-color">
+                    <div>
+                        <img src="./img/New-hollywood-nails-spa-logo-gold.png">
+                    </div>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div id="main-menu" class="navbar-nav ml-auto">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="services.html" class="nav-item nav-link active">Services</a>
+                        <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+                        <a href="specialties.html" class="nav-item nav-link">Specialties</a>
+                        <a href="https://www.lldtek.com/salon/appt/NDk3OTR8bmV3aG9sbHl3aHB8TUlfMDgxNDl8NDU3MDdlZjMyOWQxMTMxYzAxNmYyMDA0Y2M3NzI0ZTk=" target="_blank" class="nav-item nav-link" data-booking="">Appointment</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+        </div>
+
+
+    <style>
+        .page_title {
+            padding: 30px 0px;
+        }
+
+        .page_title h1 {
+            color: #c0392b;
+            font-weight: 700;
+            line-height: 2;
+            margin-bottom: 0;
+            position: relative;
+            text-transform: capitalize;
+        }
+
+        .page_title h1::before {
+            background: #c0392b;
+            width: 70px;
+            height: 2px;
+            position: absolute;
+            content: '';
+            top: 90%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .page_title h1::after {
+            position: absolute;
+            content: '';
+            background: #fbc531;
+            width: 30px;
+            height: 2px;
+            top: 90%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        /*Menu starts*/
+        .menu_tab {
+            margin: 0 auto;
+            justify-content: center;
+        }
+
+        .nav-item {
+            display: inline-block;
+            text-align: center;
+        }
+
+        .nav-tabs .nav-link {
+            transition: .3s;
+        }
+
+        .nav-tabs .nav-link.active {
+            background: #c0392b;
+            color: #fff;
+            font-weight: 700;
+            border: 1px solid #c0392b;
+            text-transform: capitalize;
+        }
+
+        .nav-link {
+            color: #000;
+        }
+
+        .nav-tabs .nav-link:hover {
+            background: #c0392b;
+            color: #fff;
+            border: 1px solid #c0392b;
+        }
+
+        .single_menu {
+            position: relative;
+            margin-bottom: 75px;
+            transition: .3s;
+        }
+
+        .single_menu:hover img {
+            -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+            clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+
+        }
+
+        .single_menu img {
+            width: 33%;
+            /* position: absolute; */
+            height: 140px;
+            -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+            clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+            transition: .3s;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .menu_content h4 {
+            font-size: 25px;
+            font-weight: 300;
+            border-bottom: 1px dashed #c0392b;
+            line-height: 2;
+            text-transform: capitalize;
+        }
+
+        .menu_content h4 span {
+            font-size: 25px;
+            font-weight: 800;
+            float: right;
+            font-style: italic;
+            color: #c0392b;
+        }
+
+        .menu_content p {
+            font-weight: 200;
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+
+        .menu_btn.btn.btn-danger {
+            margin: 0 auto;
+            display: block;
+            width: 140px;
+        }
+
+        /*Menu ends*/
+        .menu_btn.btn.btn-danger {
+            margin: 0 auto;
+            display: block;
+            width: 140px;
+        }
+
+        .btn.btn-danger {
+            background: var(--primary);
+            border: 1px solid var(--primary);
+            transition: .3s;
+            position: relative;
+            z-index: 1;
+            text-transform: capitalize;
+            font-weight: 700;
+            overflow: hidden;
+            padding: 15px 25px;
+        }
+
+        .btn.btn-danger::before {
+            position: absolute;
+            content: '';
+            background: var(--primary-hover);
+            width: 100%;
+            height: 100%;
+            left: -100%;
+            top: 100%;
+            transition: .3s;
+            z-index: -1;
+        }
+
+        .btn.btn-danger:hover:before {
+            top: 0;
+            left: 0;
+        }
+    </style>
+    <!-- Page Header Start -->
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Services</h2>
+                </div>
+                <div class="col-12">
+                    <a href="index.html">Home</a>
+                    <a href="">Services</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <div class="service">
+        <div class="container">
+            <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: zoomIn;">
+                <p name="storeName"></p>
+                <h2>Our Services</h2>
+            </div>
+
+            <section id="our_menu" class="pt-5 pb-5">
+                <div class="container">
+                    
+                    <div class="row">
+                        <div class="tab-content col-lg-12" id="myTabContent">
+                            <div class="tab-pane fade show active" id="breakfast" role="tabpanel" aria-labelledby="breakfast-tab">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mb-5">
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-4"> <img class="w-100 rounded"
+                                                        src="./img/New-hollywood-nails-spa-service-01.jpg"> </div>
+                                                <div class="col-lg-9 col-md-8 menu_content">
+                                                    <h4 class="font-weight-bold">All Services</h4>
+                                                    <div class="row">
+                                                        <div class="service_item col-lg-6 col-sm-6 col-12 title-small border-right">
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Acrylics Refill</div>
+                                                                <div class="col-3 color-price pr-0">$25</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Full Set Pink &amp; White</div>
+                                                                <div class="col-3 color-price pr-0">$60</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Full Set Ombre + Up</div>
+                                                                <div class="col-3 color-price pr-0">$60</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Dip Powder</div>
+                                                                <div class="col-3 color-price pr-0">$45</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Mani &amp; Pedi Combo Men</div>
+                                                                <div class="col-3 color-price pr-0">$50</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Regular Pedicure</div>
+                                                                <div class="col-3 color-price pr-0">$35</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Pedicure Shellac</div>
+                                                                <div class="col-3 color-price pr-0">$50</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Manicure Shellac</div>
+                                                                <div class="col-3 color-price pr-0">$38</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Mani &amp; Pedi Combo (Kids - Under 12)</div>
+                                                                <div class="col-3 color-price pr-0">$36</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Pedicure (Kids - Under 12)</div>
+                                                                <div class="col-3 color-price pr-0">$26</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Deluxe Pedicure</div>
+                                                                <div class="col-3 color-price pr-0">$70</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="service_item col-lg-6 col-sm-6 col-12 title-small">
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Shellac +</div>
+                                                                <div class="col-3 color-price pr-0">$15</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Pink &amp; White Refill</div>
+                                                                <div class="col-3 color-price pr-0">$40</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Ombre Refill</div>
+                                                                <div class="col-3 color-price pr-0">$40</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Add Manicure</div>
+                                                                <div class="col-3 color-price pr-0">$8</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Regular Manicure</div>
+                                                                <div class="col-3 color-price pr-0">$20</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Men Pedicure</div>
+                                                                <div class="col-3 color-price pr-0">$35</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Color Change</div>
+                                                                <div class="col-3 color-price pr-0">$30</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Color Change + Up</div>
+                                                                <div class="col-3 color-price pr-0">$30</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Manicure (Kids - Under 12)</div>
+                                                                <div class="col-3 color-price pr-0">$15</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Refill Gel</div>
+                                                                <div class="col-3 color-price pr-0">$38</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-5">
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-4"> <img class="w-100 rounded"
+                                                        src="./img/New-hollywood-nails-spa-service-02.jpg"> </div>
+                                                <div class="col-lg-9 col-md-8 menu_content">
+                                                    <h4 class="font-weight-bold">Nail Enhancement</h4>
+                                                    <div class="row">
+                                                        <div class="service_item col-lg-6 col-sm-6 col-12 title-small border-right">
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Take Off</div>
+                                                                <div class="col-3 color-price pr-0">$10</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Nail ART + Up</div>
+                                                                <div class="col-3 color-price pr-0">$5</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Nails Color Change</div>
+                                                                <div class="col-3 color-price pr-0">$12</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="service_item col-lg-6 col-sm-6 col-12 title-small">
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Nail Repair + Up</div>
+                                                                <div class="col-3 color-price pr-0">$3</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Toes Color Change</div>
+                                                                <div class="col-3 color-price pr-0">$15</div>
+                                                            </div>
+                                                            <div class="title-small row">
+                                                                <div class="col-9">Acrylic Full Set</div>
+                                                                <div class="col-3 color-price pr-0">$40 +</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <br>    
+                    <a target="blank" href="#" class=" menu_btn btn btn-danger" data-facebook="">Fanpage</a>
+                </div>
+                
+            </section>
+            <hr>
+            <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;">
+                <a style="font-size:20px; font-family: cursive">
+                    - All the products that we use for pedicure that made in USA and all tools are sanitize.
+                    <br>- All the pedicure kits we use are disposable.
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Start -->
+    <div class="service">
+        <div class="container">
+            <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                <p name="storeName"></p>
+                <h2>Our Services</h2>
+            </div>
+
+            <section id="our_menu" class="pt-5 pb-5">
+                <div class="container">
+                    
+                    <div class="row">
+                        <div class="tab-content col-lg-12" id="myTabContent">
+                            <div class="tab-pane fade show active" id="breakfast" role="tabpanel"
+                                aria-labelledby="breakfast-tab">
+                                <div class="row">
+                                    <div class="col-md-12" id="servicesOfCate">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <br>    
+                    <a target="blank" href="#" class=" menu_btn btn btn-danger" data-facebook>Fanpage</a>
+                </div>
+                
+            </section>
+            <hr>
+            <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                <a style="font-size:20px; font-family: cursive">- All the products that we use for pedicure that made in USA and all tools are sanitize.<br>
+                - All the pedicure kits we use are disposable.</a>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+    <!-- Footer Start -->
+    <div>
+        <div class="footer wow fadeIn" data-wow-delay="0.3s"
+            style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+            <div class="container-fluid-footer"
+                style="background-image: url('../img/New-hollywood-nails-spa-background-02.jpg'); background-size: cover;">
+                <div class="container">
+                    <div class="footer-info">
+                        <a href="index.html" class="footer-logo">
+                            <img src="../img/New-hollywood-nails-spa-logo-gold.png" alt="">
+                        </a>
+                        <h3 style="font-size: 16px" name="storeFullAddress">2813 Orchard Lake Rd, Keego Harbor, Michigan
+                            48320</h3>
+                        <div class="footer-menu">
+                            <a href="tel:+1(248) 791-7489" data-phone="">
+                                <p style="font-size: 16px;" name="storePhone">(248) 791-7489</p>
+                            </a>
+                            <a href="mailto:huynhminhkhuong1985@gmail.com" style="font-size: 16px" name="storeEmail"
+                                data-email="">huynhminhkhuong1985@gmail.com</a>
+                        </div>
+                        <div class="footer-social">
+    
+                            <a href="https://www.facebook.com/newhollywoodnailsandspa" data-facebook="" target="_blank"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/newhollywoodnailsandspa.mi" data-instagram=""
+                                target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://goo.gl/maps/XtBebJExTzCAwdjn6" data-google="" target="_blank"><i
+                                    class="fab fa-google"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container copyright">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>© <a href="index.html" name="storeName">New Hollywood Nails &amp; Spa</a>. All Rights
+                                Reserved.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>Designed by <a href="https://www.lldtek.com" target="_blank">LLDTEK</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src='./scripts/load_data_util.js' async></script>
+    <script>
+        $(document).ready(function () {
+            loadData("SERVICES");
+        });
+    </script>
+
+
+</body>
+
+</html>
